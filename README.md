@@ -111,9 +111,9 @@ To run this project on your local machine, follow these steps:
 **Pappu Kumar Jha**  
 MCA Postgraduate from Dr. BC Roy Engineering College, Durgapur 
 
-- 🔗 [LinkedIn]("https://www.linkedin.com/in/pappu-jha-212a66250")  
-- 📸 [Instagram]("https://www.instagram.com/_abhi9v_jha?igsh=aHBxMXJpY2hwbG8z")  
-- 🌐 [Portfolio Website]("https://pappujha.netlify.app/")
+- 🔗 [LinkedIn](https://www.linkedin.com/in/pappu-jha-212a66250)  
+- 📸 [Instagram](https://www.instagram.com/_abhi9v_jha?igsh=aHBxMXJpY2hwbG8z)  
+- 🌐 [Portfolio Website](https://pappujha.netlify.app/)
 
 > Passionate about AI, Data Science, and building intelligent applications that make an impact.
 
