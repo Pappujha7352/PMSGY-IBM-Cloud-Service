@@ -1,0 +1,18 @@
+from ibm_watson import AssistantV2
+from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
+
+# — your API key & URL from Service Credentials —
+APIKEY = "5BcTttf093qgxrYwRdUCSK2UkxLkX9arTKCY4RaF5G8w"
+URL    = "https://api.us-south.assistant.watson.cloud.ibm.com"
+VERSION = "2021-11-27"
+
+auth = IAMAuthenticator(APIKEY)
+assistant = AssistantV2(version=VERSION, authenticator=auth)
+assistant.set_service_url(URL)
+
+# This endpoint returns a list of assistants you own
+response = assistant.list_assistants().get_result()
+
+# Print each assistant’s name & id
+for a in response.get("assistants", []):
+    print(f"{a['name']}: {a['assistant_id']}")
